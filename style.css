@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Bebas Neue", cursive;
+}
+#title {
+  font-size: 55px;
+}
+h2 {
+  font-size: 30px;
+}
+#image {
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(90%);
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  margin: auto;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
