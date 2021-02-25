@@ -18,6 +18,11 @@ h2 {
   filter: grayscale(90%);
   max-width: 100%;
   height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+#image:hover {
+  transform: translateY(-20px) rotate(360deg);
 }
 
 #tribute-info {
